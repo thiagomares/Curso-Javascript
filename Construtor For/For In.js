@@ -22,3 +22,5 @@ let pessoa = {
 for (let chaves in pessoa) {
   console.log(chaves, pessoa[chaves]);
 }
+
+
