@@ -5,7 +5,8 @@
 
     O try irá tentar realizar uma ação que pode potencialmente retornar algum erro
     o catch irá retornar alguma coisa para que aquele erro não ocorra
-    e o throw a gente pode lançar um erro qualquer
+    e o throw a gente pode lançar um erro qualquer para o usuário
+    e o finally é uma ação que sempre irá acontecer, independentemente se tiver um erros
 
 */
 
@@ -28,4 +29,20 @@ try{
     console.log(Error);
 } finally{
     // Esta estrutura sempre irá executar, caso seja executada, entretanto, pode ser omitida
+}
+
+class Teste
+{
+    TesteDoTeste(testando)
+    {
+        console.log(testando);
+    }
+}
+
+try{
+    let Teste = new Teste.TesteDoTeste();
+}
+catch (e){
+    console.log("Deu Ruim");
+    console.log(e);
 }
