@@ -4,11 +4,11 @@
 // Escopo Global
 
 function CriaOutra(nome) {
-  // Escopo Local mais externo
-  return function Nome() {
-    // Escopo Local mais interno
-    return nome;
-  };
+    // Escopo Local mais externo
+    return function Nome() {
+        // Escopo Local mais interno
+        return nome;
+    };
 }
 
 const OutraFunção = CriaOutra("Thiago"); // Aqui estamo acessando o escopo lexico desta função
