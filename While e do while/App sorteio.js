@@ -16,18 +16,19 @@ function ordenar(a, b) {
   return a - b;
 }
 
-
 // Laço para que os números sejam sorteados
 while (contador <= 5) {
   sorteio = random();
 
   if (sorteio >= 1 && sorteio <= 60) {
-    NumerosSorteados[contador] = sorteio;
-    NumerosSorteados.sort(ordenar);
-    contador++;
-  }
-  else if (sorteio < 1 || sorteio > 60) {
-
+    if (sorteio === NumerosSorteados.indexOf(sorteio)) {
+        NumerosSorteados.pop(NumerosSorteados.indexOf(sorteio));
+    }
+    else {
+      NumerosSorteados[contador] = sorteio;
+      NumerosSorteados.sort(ordenar);
+      contador++;
+    }
   }
 }
 
