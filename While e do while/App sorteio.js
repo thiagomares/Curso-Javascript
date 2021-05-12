@@ -22,7 +22,7 @@ while (contador <= 5) {
 
   if (sorteio >= 1 && sorteio <= 60) {
     if (sorteio === NumerosSorteados.indexOf(sorteio)) {
-        NumerosSorteados.pop(NumerosSorteados.indexOf(sorteio));
+      NumerosSorteados.pop(NumerosSorteados.indexOf(sorteio));
     }
     else {
       NumerosSorteados[contador] = sorteio;
