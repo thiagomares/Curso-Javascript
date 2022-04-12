@@ -1,0 +1,18 @@
+{
+    "[json]": {
+
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "gitlens.codeLens.scopes": [
+            "document"
+        ]
+    },
+    "editor.tokenColorCustomizations": {
+        "[Andromeda Colorizer]": {
+            "comments": "#12b0d8"
+        },
+        
+    },
+}

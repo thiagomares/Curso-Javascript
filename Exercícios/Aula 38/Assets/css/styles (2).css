@@ -1,0 +1,13 @@
+body
+{
+    background-color: cadetblue;
+}
+
+.container 
+{
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    font-size: medium;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
