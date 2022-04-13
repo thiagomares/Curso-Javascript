@@ -6,7 +6,7 @@
 
 const numeros = [1, 3, 34, 5, 22.6, 12, 41, 29];
 
-const numerosModificados = numeros.map(valor => valor ** 2);
+const numerosModificados = numeros.map(valor => valor ^ 2);
 console.log(numerosModificados);
 
 const pessoas = [
@@ -19,7 +19,7 @@ const nomes = pessoas.map(valor => valor.nome);
 // Removendo a chave nome do objeto
 const idades = pessoas.map(obj => ({idade: obj.idade}));
 // inserindo objetos 
-const criaID = pessoas.map((obj, indice) => {obj.id = indice+1; return obj});
+const criaID = pessoas.map((obj, indice) => {obj.id = indice+1; return obj;});
 console.log(criaID);
 console.log(idades);
 console.log(nomes);
