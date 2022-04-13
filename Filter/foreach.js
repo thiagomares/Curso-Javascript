@@ -5,7 +5,6 @@ let total = 0;
 numeros.forEach(element => {
     let dobro = 0;
     dobro += element;
-    return dobro;
 });
 
 console.log(dobro);
