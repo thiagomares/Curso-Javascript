@@ -1,0 +1,21 @@
+body
+{
+    background-color: teal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container 
+{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.paragrafos
+{
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+}
